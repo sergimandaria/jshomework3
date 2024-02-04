@@ -1,0 +1,56 @@
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.title {
+    font-size: 20px;
+    color: white;
+}
+
+.child {
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2px;
+    padding: 20px;
+}
+
+#js-search-el {
+    height: 30px;
+    background-color: white;
+    padding: 7px 300px 5px 1px;
+    font-size: 15px;
+    border: none;
+
+
+}
+
+#js-search-bt {
+    height: 5px;
+    background-color: rgb(68, 67, 67);
+    font-size: 15px;
+    text-align: center;
+    padding: 7px 80px 5px 70px;
+    cursor: pointer;
+    height: 28px;
+
+}
+
+.box {
+    height: 20px;
+    width: 706px;
+    padding: 20px;
+    font-size: 30px;
+    background-color: rgb(241, 233, 233);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(62, 68, 59);
+
+}

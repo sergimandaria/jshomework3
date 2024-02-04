@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.noscroll {
+    margin-top: 100px;
+}
+
+body {
+    background-color: cadetblue;
+    background-image: url(todo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: rgb(193, 186, 186);
+    font-size: 15px;
+}
+
+input {
+    background: none;
+    border: none;
+}
