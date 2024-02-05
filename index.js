@@ -20,12 +20,7 @@ const joblist = () => {
     addlist.append(boxel)
 
     
-    const editbt = document.createElement("button");
-    boxel.append(editbt);
-    editbt.textContent = "edit";
-    editbt.addEventListener("click", () => {
-     boxel.style.display = "none"
-   })
+    
    
    const cancelbt = document.createElement("button");
     boxel.append(cancelbt);
@@ -37,8 +32,8 @@ const joblist = () => {
 
    boxel.addEventListener("click", () => {
      boxel.style.backgroundColor = "rgb(86, 129, 86)";
-     boxel.textContent =    "sucssses";
-   
+     boxel.textContent ="✓" + jssearchel.value 
+    
    })
     
     return boxel;
